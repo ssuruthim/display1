@@ -1,0 +1,107 @@
+p{
+    color:blue;
+}
+
+
+p.ex1 
+{
+    display: none;
+}
+.ex2
+{
+    display:inline;
+    /* Displays an element as an inline element (like <span>). Any height and width properties will have no effect */
+}
+.ex3
+{
+    display: block;
+    /* Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width */
+}
+.ex4
+{
+    display:inline-block;
+    height: 190px;
+    width: 100px;
+    /* Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values */
+    /* the top and bottom margins/paddings are respected, */
+}
+.class1
+{
+    display:contents;
+    background-color: blueviolet;
+
+}
+.class1 p{
+    border: 2px solid blue;
+    background-color: yellowgreen;
+    padding: 10px; 
+}
+/* Makes the container disappear, making the child elements children of the element the next level up in the DOM */
+.class2
+{
+    /* font-style: italic; */
+    color:brown;
+}
+.a
+{
+    color: inherit;
+    
+}
+.flex-container {
+    display:inline-flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  /* grid is advance of flex. */
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .container span
+  {
+    display: list-item;
+  }
+  p {
+    color: red;
+  }
+  
+  em {
+    color: initial;
+  }
+  .table
+  {
+    display: table;
+    border: #2196F3 solid 1px;
+  }
+  .th
+  {
+    display:table-caption;
+    text-align: center;
+  }
+  .tr
+{
+  display: table-row;
+  padding: 5px;
+  border: solid 1px;
+}
+.td
+{
+  display: table-cell;
+  padding: 5px;
+  border: solid 1px;
+}
